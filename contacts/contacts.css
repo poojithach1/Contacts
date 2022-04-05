@@ -1,0 +1,78 @@
+.container{
+    text-align: center;
+   
+}
+.search-pos{
+    text-align: left;
+    margin-left:100px ;
+}
+.search{
+    text-align: left;
+    min-width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow:2px solid coral;
+}
+.button-pos{
+    text-align: right;
+    margin-right: 120px;
+
+}
+.addButton{
+    width: 60px;
+    height: 40px;
+    color: black;
+    background-color:rgb(144, 160, 180);
+    border-radius: 5px;
+}
+.hideList{
+    display: none;
+}
+.showList{
+    display: block;
+}
+body{
+    background: blanchedalmond;
+}
+.contact-card{
+    background: rgb(184, 247, 184);
+    color: black;
+    width:800px;
+    height: 300px;
+    border-radius: 5px;
+    margin-top:60px;
+    padding: 20px;
+    position: absolute;
+    
+}
+.contact-list{
+    width: 320px;
+    height: 400px;
+    max-height:600px;
+   color: #000;
+    background: rgb(159, 195, 241);
+    margin: 50px auto;
+    overflow: visible;
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+    list-style: inside square;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+li{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 150;
+    border-bottom: 1px solid #efefef;
+    /* display: flex; */
+    align-items: center;
+}
+.li-button{
+    width:30px;
+    height:20px;
+    font-size:10px;
+    border-radius: 5px;
+    float: right;
+}
+  
